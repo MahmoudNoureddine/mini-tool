@@ -166,15 +166,3 @@ Query parameters:
 
 ---
 
-## 📜 License
-
-This project is for learning purposes.
-
----
-
-## ⭐ Future Improvements
-
-- 5-day forecast
-- Auto-detect location
-- Dark mode
-- Deploy online
