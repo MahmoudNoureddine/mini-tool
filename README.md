@@ -1,7 +1,7 @@
 # 🌤️ Weather Mini Tool
 
 > ⚠️ **Documentation Note**  
-> This documentation was **designed and written collaboratively by Mahmoud Noureddine and [Second Student Name]** as part of the project submission.
+> This documentation was **designed and written collaboratively by Mahmoud Mohammdi and Mohamad Hashemi** as part of the project submission.
 
 ---
 
@@ -100,7 +100,7 @@ http://localhost:3000
 
 # 🔄 Logic Flow Diagram
 
-> Logic flow diagram prepared by **[Second Student Name]**
+> Logic flow diagram prepared by **Masi Rasouli**
 
 GitHub supports Mermaid diagrams:
 
