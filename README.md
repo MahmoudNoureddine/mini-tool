@@ -1,11 +1,15 @@
 # 🌤️ Weather Mini Tool
 
 > ⚠️ **Documentation Note**  
-> This documentation was **designed and written collaboratively by Mahmoud Mohammdi and Mohamad Hashemi** as part of the project submission.
+> This documentation was **designed and written by  
+> 🧑‍💻 Mahmoud Noureddine and 🧑‍💻 [Second Student Name]**
 
 ---
 
-## 🚀 Features
+# 🚀 Features
+
+> **Feature design and requirements prepared by:  
+> 🔹 Mahmoud Noureddine**
 
 - 🔎 Search weather by city
 - 🌡️ Temperature in °C or °F
@@ -16,7 +20,10 @@
 
 ---
 
-## 🖥️ Tech Stack
+# 🖥️ Tech Stack
+
+> **Technology selection and implementation by:  
+> 🔹 Mahmoud Noureddine**
 
 - React (Create React App)
 - Vanilla JavaScript
@@ -25,7 +32,7 @@
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 src/
@@ -39,7 +46,7 @@ src/
 
 ---
 
-## 🔐 Setup Instructions
+# 🔐 Setup Instructions
 
 ### 1️⃣ Clone the repository
 
@@ -100,9 +107,8 @@ http://localhost:3000
 
 # 🔄 Logic Flow Diagram
 
-> Logic flow diagram prepared by **Masi Rasouli**
-
-GitHub supports Mermaid diagrams:
+> **Logic flow designed by:  
+> 🔹 [Second Student Name]**
 
 ```mermaid
 flowchart TD
@@ -125,13 +131,16 @@ I -- No --> G
 
 # 🧑‍💻 Code Development
 
-> **Developed and implemented by Mahmoud Noureddine**
+> **Application developed and implemented by:  
+> 🔹 Mahmoud Noureddine**
 
 The weather application was developed using **React with vanilla JavaScript** following a modular architecture to ensure maintainability and scalability.
 
-The development process focused on separating responsibilities into different layers:
+The development process focused on separating responsibilities into different layers.
 
-### 1️⃣ Component Layer
+---
+
+## 1️⃣ Component Layer
 
 The UI is composed of reusable React components responsible only for displaying data.
 
@@ -143,13 +152,11 @@ Main components include:
 - **RecentChips** – Displays previously searched cities
 - **ErrorBanner** – Displays error messages
 
-These components receive data from the main application state and render it for the user.
-
 ---
 
-### 2️⃣ Logic Layer (Custom Hooks)
+## 2️⃣ Logic Layer (Custom Hooks)
 
-Custom React hooks were implemented to manage application logic:
+Custom React hooks were implemented to manage application logic.
 
 **useWeather**
 
@@ -169,7 +176,7 @@ Responsible for:
 
 ---
 
-### 3️⃣ Service Layer
+## 3️⃣ Service Layer
 
 The service layer handles communication with external APIs.
 
@@ -185,7 +192,7 @@ The service layer handles communication with external APIs.
 
 ---
 
-### 4️⃣ Configuration Layer
+## 4️⃣ Configuration Layer
 
 Configuration files centralize important values.
 
@@ -203,7 +210,7 @@ Handles reading the API key from environment variables.
 
 ---
 
-### 5️⃣ Utility Layer
+## 5️⃣ Utility Layer
 
 The utility layer formats raw data for display.
 
