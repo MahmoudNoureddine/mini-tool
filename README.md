@@ -2,14 +2,14 @@
 
 > ⚠️ **Documentation Note**  
 > This documentation was **designed and written by  
-> 🧑‍💻 Mahmoud Noureddine and 🧑‍💻 [Second Student Name]**
+> 🧑‍💻 Mahmoud Mohammdi and 🧑‍💻 *Mohamad Hashimi*
 
 ---
 
 # 🚀 Features
 
 > **Feature design and requirements prepared by:  
-> 🔹 Mahmoud Noureddine**
+> 🔹 Masi Rasouli**
 
 - 🔎 Search weather by city
 - 🌡️ Temperature in °C or °F
@@ -23,7 +23,7 @@
 # 🖥️ Tech Stack
 
 > **Technology selection and implementation by:  
-> 🔹 Mahmoud Noureddine**
+> 🔹 Hasan Med**
 
 - React (Create React App)
 - Vanilla JavaScript
@@ -108,7 +108,7 @@ http://localhost:3000
 # 🔄 Logic Flow Diagram
 
 > **Logic flow designed by:  
-> 🔹 [Second Student Name]**
+> 🔹 Masi Rasouli**
 
 ```mermaid
 flowchart TD
