@@ -1,6 +1,7 @@
 # 🌤️ Weather Mini Tool
 
-A simple weather web app built with **Create React App (vanilla JavaScript)** that fetches real-time weather data by city name using the OpenWeatherMap API.
+> ⚠️ **Documentation Note**  
+> This documentation was **designed and written collaboratively by Mahmoud Noureddine and [Second Student Name]** as part of the project submission.
 
 ---
 
@@ -85,7 +86,7 @@ http://localhost:3000
 
 ---
 
-## 🧠 Application Logic
+# 🧠 Application Logic
 
 ### User Flow
 
@@ -97,7 +98,9 @@ http://localhost:3000
 
 ---
 
-## 🔄 Logic Flow Diagram
+# 🔄 Logic Flow Diagram
+
+> Logic flow diagram prepared by **[Second Student Name]**
 
 GitHub supports Mermaid diagrams:
 
@@ -120,7 +123,102 @@ I -- No --> G
 
 ---
 
-## 🧩 Component Responsibilities
+# 🧑‍💻 Code Development
+
+> **Developed and implemented by Mahmoud Noureddine**
+
+The weather application was developed using **React with vanilla JavaScript** following a modular architecture to ensure maintainability and scalability.
+
+The development process focused on separating responsibilities into different layers:
+
+### 1️⃣ Component Layer
+
+The UI is composed of reusable React components responsible only for displaying data.
+
+Main components include:
+
+- **SearchBar** – Handles user input and search submission
+- **WeatherCard** – Displays weather results
+- **UnitToggle** – Allows switching between Celsius and Fahrenheit
+- **RecentChips** – Displays previously searched cities
+- **ErrorBanner** – Displays error messages
+
+These components receive data from the main application state and render it for the user.
+
+---
+
+### 2️⃣ Logic Layer (Custom Hooks)
+
+Custom React hooks were implemented to manage application logic:
+
+**useWeather**
+
+Responsible for:
+
+- Fetching weather data from the API
+- Managing loading states
+- Handling API errors
+- Updating recent searches
+
+**useLocalStorage**
+
+Responsible for:
+
+- Persisting recent searches
+- Keeping data stored even after browser refresh
+
+---
+
+### 3️⃣ Service Layer
+
+The service layer handles communication with external APIs.
+
+**weatherService.js**
+
+- Sends requests to the OpenWeatherMap API
+- Handles network responses
+
+**weatherMapper.js**
+
+- Converts complex API responses into a simplified format
+- Ensures the UI receives clean and predictable data
+
+---
+
+### 4️⃣ Configuration Layer
+
+Configuration files centralize important values.
+
+**constants.js**
+
+Stores values such as:
+
+- API endpoints
+- Maximum number of recent searches
+- Local storage keys
+
+**env.js**
+
+Handles reading the API key from environment variables.
+
+---
+
+### 5️⃣ Utility Layer
+
+The utility layer formats raw data for display.
+
+**format.js**
+
+Contains helper functions for:
+
+- Rounding numbers
+- Formatting wind speed
+- Converting visibility units
+- Displaying temperature units
+
+---
+
+# 🧩 Component Responsibilities
 
 ### App.jsx
 - Holds main state
@@ -145,7 +243,7 @@ I -- No --> G
 
 ---
 
-## 🌐 API Endpoint Used
+# 🌐 API Endpoint Used
 
 ```
 https://api.openweathermap.org/data/2.5/weather
@@ -159,10 +257,8 @@ Query parameters:
 
 ---
 
-## ⚠️ Notes
+# ⚠️ Notes
 
 - API key activation may take a few minutes
 - `.env` file must not be pushed to GitHub
-
----
-
+- The application stores recent searches in the browser's localStorage
